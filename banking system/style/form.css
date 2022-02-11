@@ -1,0 +1,147 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inpute-field{
+    background-color:#cddeff70;
+    height: 700px;
+    width: 100%;
+   
+}
+.heading{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 40px;
+    padding: 10px 400px;
+    height: 50px;
+    width: 100%;
+    background-color: #516BEB;
+}
+form{
+    padding: 20px 20px;
+}
+label{
+    position: relative;
+    bottom: 10px;
+    left: 80px;
+}
+.name{
+    text-transform: capitalize;
+    margin: 50px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    color: blue; 
+    font-size: 18px;
+    border: 1px solid #B1D0E0;
+    border-radius: 5px;
+    outline: none;
+    height: 25px;
+    width: 250px;
+}
+.phone{
+    position: relative;
+    top:60px;
+    left: 100px;
+}
+.input-phone{
+    font-size: 18px;
+    color: blue;
+    position: relative;
+    top: 90px;
+    left: 80px;
+    border: 1px solid #B1D0E0;
+    border-radius: 5px;
+    outline: none;
+    height: 25px;
+    width: 300px;
+}
+.id {
+   position: relative;
+   top: 60px;
+   left: 180px;
+}
+.inputinput{
+    font-size: 18px;
+    position: relative;
+    top: 90px;
+    left: 140px;
+    height: 25px;
+    width: 300px;
+    border: 1px solid #B1D0E0;
+    border-radius: 5px;
+    color: blue;
+    outline: none;
+}
+
+.password{
+    position: relative;
+    top: 60px;
+    left: 200px;
+}
+.inputpassword{
+    position: relative;
+    top: 90px;
+    left: 170px;
+    border: 1px solid #B1D0E0;
+    border-radius: 5px;
+    outline: none;
+    height: 25px;
+    width: 260px;
+} 
+.amount{
+    position: relative;
+    top: 150px;
+    left: 220px;
+}
+
+.inputamount{
+    position: relative;
+    top: 180px;
+    left: 200px;
+    border: 1px solid #B1D0E0;
+    border-radius: 5px;
+    outline: none;
+    height: 25px;
+    width: 260px;
+    color: blue;
+    font-size: 18px;
+}
+.date{
+    position: relative;
+    top: 150px;
+    left:370px;
+}
+
+.inputdate{
+    position: relative;
+    top: 180px;
+    left: 350px;
+    outline: none;
+    width: 200px;
+    font-size: 18px;
+    border: 1px solid #B1D0E0;
+    color: blue;
+}
+
+.submit{
+    width: 200px;
+    height: 60px;
+    margin: 260px 550px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #5c7aea ;
+    outline: none;
+    border: none;
+    color: white;
+}
+.submit:hover{
+    background-color: white;
+    color: #5c7aea;
+
+    border: 1px solid #5c7aea;
+}
